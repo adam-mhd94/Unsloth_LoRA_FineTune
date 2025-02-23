@@ -20,7 +20,7 @@ This repository contains the implementation and fine-tuning of large language mo
 - **NVIDIA GPU** with CUDA 11.8+ support.
 - At least **16GB VRAM** for 7B parameter models.
 
-### Installing Dependencies
+##### Installing Dependencies
 
 To install the required dependencies, run the following commands:
 
