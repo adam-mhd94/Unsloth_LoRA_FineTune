@@ -59,7 +59,7 @@ python Unsloth_FineTune.py \
     --max_seq_length 2048 \
     --dtype float16 \
     --load_in_4bit \
-    --lora_r 16 \
+    --lora_r 8 \
     --lora_alpha 16 \
     --batch_size 2 \
     --gradient_accumulation_steps 4 \
@@ -85,6 +85,7 @@ Parameter	Default Value	Description
 | `--batch_size`                     | Training batch size per GPU (adjust based on VRAM)                | 2                         |
 | `--gradient_accumulation_steps`    | Number of gradient accumulation steps                             | 4                         |
 | `--learning_rate`                  | Initial learning rate (for LoRA: 1e-4 to 3e-4)                    | 2e-4                      |
+| `--warmup_steps`                  | Number of warmup steps for learning rate scheduler                 | 5                          |
 | `--epochs`                         | Number of training epochs                                          | 1                         |
 | `--output_dir`                     | Directory to save logs and checkpoints                             | "outputs"                 |
 | `--save_model_path`                | Final path to save the trained model                               | "lora_model"              |
