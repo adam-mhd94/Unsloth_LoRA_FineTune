@@ -55,7 +55,7 @@ python Finetune.py \
 ```bash
 python Finetune.py \
     --model_path_name "models/models--deepseek-ai--DeepSeek-R1-Distill-Llama-8B" \
-    --data_path "data/finetune_data.json" \
+    --data_path "data/sample.json" \
     --max_seq_length 2048 \
     --dtype float16 \
     --load_in_4bit \
