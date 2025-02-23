@@ -26,11 +26,13 @@ To install the required dependencies, run the following command:
 
 ```bash
 pip install unsloth
+```
 
 If you want to install the latest nightly build of Unsloth, use this command:
 
+```bash
 pip uninstall unsloth -y && pip install --upgrade --no-cache-dir --no-deps git+https://github.com/unslothai/unsloth.git
-
+```
 For installing the correct version of Unsloth, please refer to its repository. 
 
 ### ⚙️Fine-tuning DeepSeek R1
