@@ -1,0 +1,22 @@
+[
+  {
+    "instruction": "Translate from English to Persian",
+    "input": "The sun sets behind the mountains, painting the sky in hues of orange and pink.",
+    "output": "خورشید پشت کوه‌ها غروب می‌کند و آسمان را در رنگ‌های نارنجی و صورتی نقاشی می‌کند."
+  },
+  {
+    "instruction": "Translate from English to Persian",
+    "input": "Every morning brings a new opportunity to grow and evolve.",
+    "output": "هر صبح فرصتی جدید برای رشد و تحول به ارمغان می‌آورد."
+  },
+  {
+    "instruction": "Summarize the following text",
+    "input": "The moonlit night was calm and serene. The soft rustling of leaves in the breeze created a soothing melody.",
+    "output": "شب مهتابی آرام و ساکت بود. صدای ملایم وزش برگ‌ها در باد نغمه‌ای دلنشین می‌ساخت."
+  },
+  {
+    "instruction": "Translate from English to Persian",
+    "input": "The ocean is a vast, mysterious world filled with secrets and wonders.",
+    "output": "اقیانوس دنیای وسیع و مرموزی است پر از اسرار و شگفتی‌ها."
+  }
+]
