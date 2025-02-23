@@ -33,7 +33,7 @@ If you want to install the latest nightly build of Unsloth, use this command:
 ```bash
 pip uninstall unsloth -y && pip install --upgrade --no-cache-dir --no-deps git+https://github.com/unslothai/unsloth.git
 ```
-For installing the correct version of Unsloth, please refer to its repository. 
+For installing the correct version of **Unsloth**, please refer to its [repository](https://github.com/unslothai/unsloth).
 
 ### ⚙️Fine-tuning DeepSeek R1
 
