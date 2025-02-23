@@ -20,12 +20,12 @@ This repository contains the implementation and fine-tuning of large language mo
 - **NVIDIA GPU** with CUDA 11.8+ support.
 - At least **16GB VRAM** for 7B parameter models.
 
-##Installing Dependencies
+### Installing Dependencies
 
 To install the required dependencies, run the following commands:
 
 pip install unsloth
-# Also get the latest nightly Unsloth!
+Also get the latest nightly Unsloth!
 pip uninstall unsloth -y && pip install --upgrade --no-cache-dir --no-deps git+https://github.com/unslothai/unsloth.git
 
 For installing the correct version of **Unsloth**, please refer to its [repository](https://github.com/unslothai/unsloth).
