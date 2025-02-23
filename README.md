@@ -25,7 +25,9 @@ This repository contains the implementation and fine-tuning of large language mo
 To install the required dependencies, run the following commands:
 
 pip install unsloth
+
 Also get the latest nightly Unsloth!
+
 pip uninstall unsloth -y && pip install --upgrade --no-cache-dir --no-deps git+https://github.com/unslothai/unsloth.git
 
 For installing the correct version of **Unsloth**, please refer to its [repository](https://github.com/unslothai/unsloth).
