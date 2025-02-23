@@ -45,7 +45,7 @@ Simply update the model names to the correct ones. For example, replace 'unsloth
 
 ### Basic Command
 ```bash
-python Unsloth_FineTune.py \
+python Finetune.py \
     --model_path_name "/path/to/model" \
     --data_path "/path/to/dataset.json" \
     --output_dir "outputs" \
@@ -53,7 +53,7 @@ python Unsloth_FineTune.py \
 ```
 ### Full Example with Advanced Parameters
 ```bash
-python Unsloth_FineTune.py \
+python Finetune.py \
     --model_path_name "models/models--deepseek-ai--DeepSeek-R1-Distill-Llama-8B" \
     --data_path "data/finetune_data.json" \
     --max_seq_length 2048 \
