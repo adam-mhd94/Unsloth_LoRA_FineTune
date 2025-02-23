@@ -32,6 +32,11 @@ pip uninstall unsloth -y && pip install --upgrade --no-cache-dir --no-deps git+h
 
 For installing the correct version of **Unsloth**, please refer to its [repository](https://github.com/unslothai/unsloth).
 
+### ⚙️Fine-tuning DeepSeek R1
+
+Fine-tuning reasoning models is still an emerging field. However, since DeepSeek's distilled models are based on Llama and Qwen architectures, they are fully compatible with Unsloth right away.
+
+Simply update the model names to the correct ones. For example, replace 'unsloth/Meta-Llama-3.1-8B' with 'unsloth/DeepSeek-R1-Distill-Llama-8B-unsloth-bnb-4bit.
 
 
 
