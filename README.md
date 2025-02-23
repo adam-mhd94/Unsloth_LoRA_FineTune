@@ -70,8 +70,7 @@ python Finetune.py \
 ```
 
 ### Parameter Descriptions ⚙️
-Parameter	Default Value	Description
-### Hyperparameters
+#### Hyperparameters
 
 | Parameter                         | Description                                                       | Default Value             |
 | ---------------------------------- | ----------------------------------------------------------------- | ------------------------- |
@@ -92,4 +91,10 @@ Parameter	Default Value	Description
 
 
 
+### Dataset Format
 
+The dataset for fine-tuning should be in JSON format. Each entry must contain the following fields:
+
+- `instruction`: A short instruction for the task.
+- `input`: The input text that provides further context.
+- `output`: The desired output response.
