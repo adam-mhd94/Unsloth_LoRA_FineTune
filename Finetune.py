@@ -245,11 +245,12 @@ def prepare_dataset(data_path: str, tokenizer: Any) -> Any:
         )
         ### For DeepSeek Finetuning (reasoning dataset)
         # prompt_template = (
-        #     "Below is an instruction that describes a task, paired with an input that provides further context. "
+        #     "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request. \
+        #      Before answering, think carefully about the question and create a step-by-step chain of thoughts to ensure a logical and accurate response. "
         #     "Write a response that appropriately completes the request.\n\n"
         #     "### Instruction:\n{instruction}\n\n"
         #     "### Input:\n{input}\n\n"
-        #     "### Response:\n <think>\n{think}\n</think>\n{output}"
+        #     "### Response:\n <think>\n{think}\n</CoT>\n{output}"
         # )
 
         texts = [
